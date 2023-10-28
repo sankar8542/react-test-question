@@ -1,0 +1,70 @@
+What is react? 
+
+React is a JavaScript library created by Facebook.
+
+React is a User Interface (UI) library.
+
+React is a tool for building UI components.
+
+2.What is component?
+
+  Components are independent and reusable bits of code.
+  They serve the same purpose as JavaScript functions, 
+  but work in isolation and return HTML. Components
+  come in two types, Class components and Function 
+  components, in this tutorial we will concentrate
+   on Function components.
+3.Write function syntax.
+
+  import Reacr from 'react'
+
+   const one=()=>{
+      return(
+      <div>
+
+     </div>
+)
+}
+
+4.Write class syntax.
+
+  import React from 'react'
+
+   class one extends component{
+        render(){
+
+          return(
+            <div></div>
+)
+}
+}
+
+6.What is JSX>
+
+  JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+7. What are the advantages of react?
+       1 Effortless Maintenance.
+       2 Fast Rendering.
+       3 Search Engine Friendly.
+       4 Reliable Development Tools.
+       5 Redux Facility.
+       6 Offers Mobile Application Development.
+       7 Stable and Streamline Code.
+       8 Ample Community Support.
+
+8. Difference between real dom and virtual dom.
+    
+      Real DOM is what you see on your browser screen and virtual DOM is copy of it. The main difference is that when you make changes in any part of real DOM, 
+     It re-renders the whole DOM at once and that affects efficiency of your server loading cause it has to reload the whole page as browser can only read JS, Html/CSS.
+
+9.  Write any three packages.
+      
+      npx create react-app appname
+      npx create icons
+      npx i scss
+
+10.  What is props?
+    
+      The word “props” implies “properties”, and its working functionality is quite similar to HTML attributes. Basically, these props components are read-only components. In ReactJS, 
+      the data can be passed from one component to another component using these props, similar to how the arguments are passed in a function.
